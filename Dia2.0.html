@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dia2.0.css">
+    <title>Dia 2.0</title>
+</head>
+<body>
+
+<div class= "fundo">
+    <div>
+        <h1 style = "color: white; font-size: 48px; margin-left: 30px;margin-top: 30px;"> <b> Cadastro</b> </h1>
+    </div>
+
+    <form name="confere" action="enviar.php" method="POST">
+    <div>
+        <input class = "input" type="text" name="nome" placeholder="Nome" >
+        <input class = "input" type="password" name= "senha" id="senha" placeholder="Senha" style="margin-top: 100px;">
+        <input class="olho"  type="button" onclick="showsenha()" style="margin-top: 105px;">
+        <input class = "input" type="password" name= "confirmasenha"  id="confirmasenha" placeholder="Confirme sua senha!" style="margin-top: 200px;">
+        <input class="olho" type="button" onclick="showconfirmasenha()" style="margin-top: 205px;" >
+
+    </div>
+    </form>
+
+    <button class="botao" style="margin-top: 300px;" onclick="conferesenha()" > <b>Entrar</b> </button>
+
+
+</div>
+    
+</body>
+</html>
+
+<script type="text/javascript" src="mostra.js"></script>
+<script type="text/javascript" src="conferesenhas.js"></script>
+
+
+
+
